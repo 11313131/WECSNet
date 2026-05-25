@@ -19,10 +19,10 @@ WECSNet backbone code is placed under mmrotate/models/backbones/, and the train/
 ## Pretrained Weights of Backbones
 
 
-Imagenet 300-epoch pre-trained WECSNet-tiny backbone: [Download](https://github.com/lwCVer/LEGNet/releases/download/pre-train/LWEGNet_tiny.pth)
+Imagenet 300-epoch pre-trained WECSNet-tiny backbone: [Download](https://github.com/11313131/WECSNet/releases/tag/pre-train/WECSNet_tiny.pth)
 
 
-Imagenet 300-epoch pre-trained WECSNet-small backbone: [Download](https://github.com/lwCVer/LEGNet/releases/download/pre-train/LWEGNet_small.pth)
+Imagenet 300-epoch pre-trained WECSNet-small backbone: [Download](https://github.com/11313131/WECSNet/releases/tag/pre-train/WECSNet_small.pth)
 
 
 ## Results and Models
@@ -45,7 +45,7 @@ FAIR-v1.0
 
 |         Model         |  mAP  | Angle | training mode | Batch Size |                                                 Configs                                                  |
 | :----------------------: |:-----:| :---: |---| :------: |:--------------------------------------------------------------------------------------------------------:|
-| WECSNet-Small (1024,1024,500) | 48.57 | le90  | multi-scale |    2\*4     | [orcnn_wecsnet_small_fairv1_test_ms_e12.py](./configs/wecsnet/orcnn_wecsnet_small_fairv1_test_ms_e12.py) |
+| WECSNet-Small (1024,1024,500) | 48.14 | le90  | multi-scale |    2\*4     | [orcnn_wecsnet_small_fairv1_test_ms_e12.py](./configs/wecsnet/orcnn_wecsnet_small_fairv1_test_ms_e12.py) |
 
 DIOR-R 
 
